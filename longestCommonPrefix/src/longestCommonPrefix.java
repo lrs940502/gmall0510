@@ -37,7 +37,7 @@ public class longestCommonPrefix {
                 return ans;
             }
             /**
-             * 相同的字符，复制给ans，推出本次串的遍历，换下个串，数组的下个串和ans进行比较，相同的部分复制给ans，
+             * 字符串的字符和ans的字符进行比较，将两者相同的字符复制给ans，推出本次串的遍历，换下个串，数组的下个串和ans进行比较，相同的部分复制给ans，
              */
             for (int j=0;j<strs[i].length()&&j<ans.length();j++){
                 if (strs[i].charAt(j)!=ans.charAt(j)){
