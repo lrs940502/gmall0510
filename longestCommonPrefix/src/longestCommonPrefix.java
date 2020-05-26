@@ -2,7 +2,7 @@ import java.util.Scanner;
 
 /**
  * @Author: liurs
- * @Description:
+ * @Description: 最长公共前串的问题
  * @Date: Creat in 2020/5/26 15:54
  * @Modified By:
  */
